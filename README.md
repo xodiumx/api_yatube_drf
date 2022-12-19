@@ -69,9 +69,10 @@ http://127.0.0.1:8000/swagger/
 
 POST http://127.0.0.1:8000/api/v1/posts/
 Content-Type: application/json
+Authorization: Bearer eyJhbGcJ9(...).eyJzdWIiO(...).mCkS(...)
 
 {
-  "text": "новый пост",
+  "text": "Пост с картинкой",
   "image": "data:image/png;base64,iVBORw0KGgo..."
 }
 
